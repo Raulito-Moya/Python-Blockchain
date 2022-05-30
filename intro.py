@@ -1,0 +1,5 @@
+my_name = input('please enter your name:')
+print(my_name)
+file = open('name.txt',mode="w")
+file.write(my_name)
+file.close()
